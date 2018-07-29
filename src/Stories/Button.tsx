@@ -11,8 +11,7 @@ export default (storybook: Story) => {
     withInfo({
       header: false,
       inline: true,
-      source: false,
-      propTables: false,
+      source: true,
       text: 'Sample of Button component'
     })(() => {
       return (
