@@ -5,6 +5,8 @@ export interface Props {
   onClick: any
 }
 
-export default (props: Props) => (
+const Button = (props: Props) => (
   <button onClick={props.onClick}>{props.label}</button>
 )
+
+export default Button
